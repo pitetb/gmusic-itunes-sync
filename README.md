@@ -22,7 +22,7 @@ Matching is done based on title, artiste and track number on the disc. YOU SHOUL
 
 ### Tech
 
-gmusic-itunes-sync is written in TypeScript (for learning purpose).
+gmusic-itunes-sync is written fully in TypeScript (for learning/testing purpose).
 
 It also uses a number of open source projects to work properly:
 
@@ -40,7 +40,8 @@ It also uses a number of open source projects to work properly:
 
 gmusic-itunes-sync requires [Node.js](https://nodejs.org/) v6+ to run.
 
-It's a npm package with an executable command 'npm install gmusic-itunes-sync --save'. This command will be installed on the '.bin' directory of npm when the package is intalled.
+It's a classical npm package with an executable command: 'gmusic-itunes-sync'.
+This command will be installed on the '.bin' directory of npm when the npm package is intalled.
 
 Install the dependencies start the tool with the command line.
 
