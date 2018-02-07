@@ -1,0 +1,1 @@
+{"version":3,"file":"UserSettings.js","sourceRoot":"","sources":["../src/UserSettings.ts"],"names":[],"mappings":";;;;;;;;;;AAAA,iEAAiE;AAGjE;IAMQ;QACI,IAAI,CAAC,MAAM,GAAG,EAAE,CAAC;QACjB,IAAI,CAAC,OAAO,GAAG,EAAE,CAAC;IACtB,CAAC;IAEY,mBAAmB;;YAC5B,IAAI,CAAC,aAAa,GAAG,MAAM,EAAE,CAAC,aAAa,EAAE,CAAC;QAClD,CAAC;KAAA;CAER;AAfD,oCAeC"}

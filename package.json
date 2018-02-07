@@ -1,0 +1,41 @@
+{
+  "name": "gmusic-itunes-sync",
+  "version": "1.0.0",
+  "description": "Google Music and iTunes library song rating synchronisation tool",
+  "main": ".bin/Main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pitetb/gmusic-itunes-sync.git"
+  },
+  "homepage": "https://github.com/pitetb/gmusic-itunes-sync#readme",
+  "dependencies": {
+    "@johnpaulvaughan/itunes-music-library-path": "^2.0.2",
+    "@types/lokijs": "^1.5.1",
+    "@types/node": "^9.4.1",
+    "commander": "^2.14.1",
+    "inquirer": "^5.1.0",
+    "lokijs": "^1.5.2",
+    "playmusic": "^2.3.0",
+    "strongly-typed-events": "^1.0.1",
+    "xmldom": "^0.1.27",
+    "xpath": "0.0.27"
+  },
+  "keywords": [
+    "itunes",
+    "google",
+    "music",
+    "gmusic",
+    "rating",
+    "stars",
+    "star",
+    "synchronization"
+  ],
+  "author": "Benoit PITET",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pitetb/gmusic-itunes-sync/issues"
+  }
+}
