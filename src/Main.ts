@@ -15,7 +15,7 @@ export class Main {
             userSettings.lastSyncDateTime = new Date();
 
             // Detect itunes library folder path
-            if (userSettings.itLibraryPath) {
+            if (! userSettings.itLibraryPath) {
                 console.log("Try autodetecting iTunes XML Library file path");
                 await userSettings.autodetectITLibPath();
             }        

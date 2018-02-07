@@ -2,26 +2,23 @@
 
 "gmusic-itunes-sync" is an command line tool to synchronize your iTunes Library songs rating (the 'stars') with the "Thumb Up" system of your Google Music Library.
 
-  - Rate your songs on iTunes with at least one star ''
+  - Rate your songs on iTunes with at least one star '☆'
   - Run the tool
-  - Automaticly, the same songs on your Google Music Library are going to be "Liked" (thumb up on the UI).
+  - Automaticly, the same songs on your Google Music Library are going to be "Liked 👍" (thumb up on the UI). 
 
 # Demo
 
-> The overriding design goal for Markdown's
-> formatting syntax is to make it as readable
-> as possible. The idea is that a
-> Markdown-formatted document should be
-> publishable as-is, as plain text, without
-> looking like it's been marked up with tags
-> or formatting instructions.
+![Demo Gif](http://gph.is/2E8sIYn)
 
-Mainly tested on my personnal libray with 12K+ songs. Working correctly. 
+Mainly tested on my personnal libray with 12K+ songs. 
 
 # Tech
 
 ### Synchronization Process
 
+The synchronization is ONE WAY ONLY. The iTunes ranking is copied to the Google Music library (not in the other way)
+
+Matching is done based on title, artiste and track number on the disc. YOU SHOULD HAVE YOUR MP3 CORRECTLY TAGGED to make it work.
 
 ### Tech
 
@@ -43,12 +40,17 @@ It also uses a number of open source projects to work properly:
 
 gmusic-itunes-sync requires [Node.js](https://nodejs.org/) v6+ to run.
 
+It's a npm package with an executable command 'npm install gmusic-itunes-sync --save'. This command will be installed on the '.bin' directory of npm when the package is intalled.
+
 Install the dependencies start the tool with the command line.
 
 ```sh
-$ cd gmusic-itunes-sync
-$ npm install -d
-$ node app
+$ mkdir gmusic-itunes-sync
+$ npm init
+$ npm install gmusic-itunes-sync --save
+$ ./node_modules/.bin/gmusic-itunes-sync 
+$ ? The user on Google Music Library service (email) :
+$ // Here follow the instructions
 ```
 
 ### Development

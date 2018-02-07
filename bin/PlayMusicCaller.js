@@ -123,4 +123,5 @@ class TracksRep {
         this.data = new Array();
     }
 }
+exports.TracksRep = TracksRep;
 //# sourceMappingURL=PlayMusicCaller.js.map

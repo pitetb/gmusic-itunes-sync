@@ -42,8 +42,8 @@ inquirer.prompt(questions).then(answers => {
     userSettings.gLogin = program.username;
     userSettings.gPasswd = program.password;
     userSettings.itLibraryPath = program.itunesXml;
-    console.log(userSettings.gLogin);
-    console.log(userSettings.gPasswd);
+    //console.log(userSettings.gLogin);
+    //console.log(userSettings.gPasswd);
     // Launch program
     Main_1.Main.main(userSettings);
 });

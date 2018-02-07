@@ -54,6 +54,7 @@ export class SynManager {
 
         public async prepareSynchronisation() {
             
+            /* DATA FOR SOME TESTING */
             /* let song1:ITSong = new ITSong("1", "Old Artist", "Archive", "Londinium", 5,  20);
             let song2:ITSong = new ITSong("2", "Darkroom", "Archive", "Londinium", 5, 20);
             let song3:ITSong = new ITSong("3", "Skyscrapper", "Archive", "Londinium", 5, 20);
@@ -164,19 +165,11 @@ export class SynManager {
             this.synReport.songsNotFounded = notFoundOnGMusic;
             
             this._onSyncProgress.dispatch(new SynProgress(SynState.ReadyToSyn, "Comparaison done. Ready to apply changes."));
-            
-
-            
+                       
            
             
             //trackTen.GTrackThumbs = GTrackThumbs.Up;
             //await playMusic.updateSongRating(trackTen);
-
-            // TO DO IN PARRALLEL
-            // PARSE ITUNES LIB
-            // RETRIEVE GOOGLE MUSIC LIB
-            //await Promise.all([ itunesParser.readItunesFileAndGetRatedITSongsAsync(userSettings.itLibraryPath), playMusic.getAllGMusicSongs(userSettings)  ]) ;
-            //console.log("Both finished");
         }
 
 
@@ -243,7 +236,7 @@ export class SynManager {
         } 
         
         /**
-         * Helper method
+         * Helper method (for testing purpose)
          */
         protected searchSongMatchingText<T extends Song & LokiObj>(title:string, artist:string, album:string, duration:number, rating:number, collection:Loki.Collection) : T {
 

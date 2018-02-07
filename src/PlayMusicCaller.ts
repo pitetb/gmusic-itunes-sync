@@ -136,7 +136,7 @@ export class PlayMusicCaller {
     }
 }
 
-class TracksRep {
+export class TracksRep {
     data:Array<GSong>;
     nextPageToken:string;
     constructor() {

@@ -1,10 +1,14 @@
 {
   "name": "gmusic-itunes-sync",
-  "version": "1.0.0",
+  "version": "1.0.6",
   "description": "Google Music and iTunes library song rating synchronisation tool",
-  "main": ".bin/Main.js",
+  "main": "./bin/Main.js",
+  "types": "./bin/Main.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "gmusic-itunes-sync": "./bin/Cli.js"
   },
   "repository": {
     "type": "git",
