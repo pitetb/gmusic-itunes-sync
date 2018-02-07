@@ -8,7 +8,7 @@
 
 # Demo
 
-![Demo Gif](http://gph.is/2E8sIYn)
+<img src="https://github.com/pitetb/gmusic-itunes-sync/raw/master/gmuic-itunes-sync.gif" alt="Drawing" style="width: 600px;"/>
 
 Mainly tested on my personnal libray with 12K+ songs. 
 
